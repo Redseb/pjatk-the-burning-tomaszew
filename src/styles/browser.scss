@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+$theme: rgb(0, 132, 132);
+$gray: #c0c0c0;
+
+.browserContainer {
+  input[type="text"] {
+    font-family: VT323;
+    font-size: 19px;
+    width: 85%;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px gray solid;
+    border-right: 2px gray solid;
+  }
+  button[type="submit"] {
+    margin-left: 0px;
+    background-color: $gray;
+    height: 27px;
+    width: 20px;
+    padding: 2px;
+  }
+  .searchBar {
+    margin: 5px;
+    flex-direction: row;
+    width: 100%;
+  }
+}
